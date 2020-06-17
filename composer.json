@@ -1,0 +1,29 @@
+{
+  "name": "valsplat/employes-api-client",
+  "type": "library",
+  "description": "A PHP Client for the Employes API",
+  "keywords": [ "api", "php", "employes" ],
+  "homepage": "https://github.com/valsplat/employes-api-client",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bjorn Post",
+      "email": "bjorn@valsplat.nl"
+    },
+    {
+      "name": "Joris Leker",
+      "email": "joris@valsplat.nl"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Valsplat\\Employes\\": "src/Employes"
+    }
+  }
+}
