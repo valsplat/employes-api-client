@@ -68,7 +68,7 @@ class Connection
      *
      * @return Request
      */
-    private function createRequest($method = 'GET', $endpoint, $body = null, array $params = [], array $headers = [])
+    private function createRequest($method = 'GET', $endpoint = '', $body = null, array $params = [], array $headers = [])
     {
         // Add default json headers to the request
         $headers = array_merge($headers, [
